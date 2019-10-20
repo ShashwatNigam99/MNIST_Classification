@@ -32,5 +32,6 @@ _Prior for MAP : 1/10 as there are are 10 classes of digits and all digits are e
 
 #### Performance analysis for various k and optimal k
 * The accuracies are different owing to the different position and the clustering of the images in the test set when compared to the training set. 
-* For higher K values we take more neighbours into account and hence arent completely dependent on the nearest neighbour. # * * Graphically, our decision boundary will be more jagged as the small K would be blind to the overall distribution. On the other hand, a higher K averages more voters in each prediction and hence is more resilient to outliers. Larger values of K will have smoother decision boundaries.
+* For higher K values we take more neighbours into account and hence arent completely dependent on the nearest neighbour. 
+* Graphically, our decision boundary will be more jagged as the small K would be blind to the overall distribution. On the other hand, a higher K averages more voters in each prediction and hence is more resilient to outliers. Larger values of K will have smoother decision boundaries.
 * We can identify the best K based on our understanding of the data, and a binary search approach. This is because the accuracy gets worse as we move away from K on either side. We can think of this similar to the underfitting/overfitting problem.
