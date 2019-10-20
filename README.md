@@ -24,7 +24,7 @@ _Prior for MAP : 1/10 as there are are 10 classes of digits and all digits are e
 * Pairwise bayesian method has the best accuracy (accuracy = 83.8) across all methods. It uses a common sigma value, and unique mean value for any pair of classes. This takes into consideration the means of the classes and also the covariance(though averaged), hence the spread of the data gets accounted for too. Doing a majority vote across all classes reduces error (in classification) as much as possible hence gaining more accuracy than MLE and MAP.
 
 
-* Perpendicular bisector method has a little better performance (accuracy = 77) as compared to MLE and MAP but lesser than Pairwise bayesian method. Since it uses only distance of the mean point of every class, it does not incorporate sufficient information about the spread of the data in each class, as` $\Sigma$ `is not considered, hence has lesser accuracy than Pairwise Bayesian. Doing a majority vote across all classes reduces error (in classification) as much as possible hence gaining more accuracy than MLE and MAP.
+* Perpendicular bisector method has a little better performance (accuracy = 77) as compared to MLE and MAP but lesser than Pairwise bayesian method. Since it uses only distance of the mean point of every class, it does not incorporate sufficient information about the spread of the data in each class, as Sigma is not considered, hence has lesser accuracy than Pairwise Bayesian. Doing a majority vote across all classes reduces error (in classification) as much as possible hence gaining more accuracy than MLE and MAP.
 
 ### Nearest Neighbour based methods
 - K nearest neighbour algorithm
