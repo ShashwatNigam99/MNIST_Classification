@@ -1,5 +1,5 @@
 # MNIST Handwritten Digits Classification using various classifiers
-
+![Alt text](./digits.png)
 ## Dataset
 Using a subset of the extremely popular simple data set MNIST. This data set has many images of handwritten digits 0 to 9. i.e., 10
 classes. Each image is of size 28 ×28. In our subset there are 7000 images in total from 10 classes, out of which 6000
