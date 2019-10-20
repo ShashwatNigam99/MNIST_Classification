@@ -14,9 +14,9 @@ are for training and 1000 are for testing.
 - Simple perpendicular bisector based Majority Voting
 
 #### Analysis of accuracies obtained from the above methods
-* MLE has a bad performance (accuracy = 74.3) since the estimation is based on the information received from the training set. The parameters` $\mu$ `and` $\Sigma$ `for the 2-D Gaussian curve are fixed based on the training set. The parameters are not tuned to any data from the test set. Therefore, as a result of overfitting on the training set/less generality, the accuracy is low. If the training set would have been a better representative of the overall distribution of data samples, accuracy would have been better for test set also.
+* MLE has a bad performance (accuracy = 74.3) since the estimation is based on the information received from the training set. The parameters mu and sigma for the 2-D Gaussian curve are fixed based on the training set. The parameters are not tuned to any data from the test set. Therefore, as a result of overfitting on the training set/less generality, the accuracy is low. If the training set would have been a better representative of the overall distribution of data samples, accuracy would have been better for test set also.
 
-_Prior for MAP : $\frac{1}{10}$ as there are are 10 classes of digits and all digits are equally probable_
+_Prior for MAP : 1/10 as there are are 10 classes of digits and all digits are equally probable_
 
 * MAP has accuracy similar to MLE(accuracy = 74.3) due to similar reasons. The priori assumption does not have an affect on the accuracy since it gives equal probability to all classes.
 
